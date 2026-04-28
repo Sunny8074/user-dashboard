@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # 🚀 User Management Dashboard
@@ -18,6 +19,26 @@ The goal of this project is to demonstrate strong fundamentals in:
 
 ## ⚙️ Setup Instructions
 
+=======
+# 🚀 User Management Dashboard
+
+## 📌 Project Overview
+
+This project is a **User Management Dashboard** built using React.js.
+It fetches user data from a public API and provides features like searching, sorting, pagination, and viewing detailed user information.
+
+The goal of this project is to demonstrate strong fundamentals in:
+
+* React Hooks
+* State Management (Context API)
+* Routing
+* Responsive UI Design
+
+---
+
+## ⚙️ Setup Instructions
+
+>>>>>>> fe115fe42c9784964039001fda2204178a3410d0
 Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the repository
