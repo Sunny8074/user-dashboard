@@ -10,7 +10,7 @@ import React from "react";
 
 const Home = () => {
     const { filteredUsers, loading, error } = useUsers();
-    const { toggleTheme } = useTheme();
+    const { theme, toggleTheme } = useTheme();
 
     const [page, setPage] = React.useState(1);
     const limit = 5;
@@ -34,9 +34,8 @@ const Home = () => {
                     <li>Roles</li>
                     <li>Settings</li>
                 </ul>
-
                 <button className="theme-btn" onClick={toggleTheme}>
-                    Toggle Theme
+                    {theme === "light" ? "Dark Mode" : "Light Mode"}
                 </button>
             </aside>
 

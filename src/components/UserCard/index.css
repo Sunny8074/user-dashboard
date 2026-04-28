@@ -1,0 +1,29 @@
+.card-link {
+    text-decoration: none;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.email {
+    color: #555;
+}
+
+.city {
+    color: #777;
+}
