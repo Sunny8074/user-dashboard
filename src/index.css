@@ -1,0 +1,29 @@
+/* LIGHT */
+body.light {
+  background: #f5f7fb;
+  color: #111;
+}
+
+/* DARK */
+body.dark {
+  background: #0f172a;
+  color: #fff;
+}
+
+/* Make components react */
+body.dark .card {
+  background: #1e293b;
+  color: #fff;
+}
+
+body.dark .sidebar {
+  background: #020617;
+}
+
+body.dark table {
+  color: #fff;
+}
+
+body.dark .table-box {
+  background: #1e293b;
+}
